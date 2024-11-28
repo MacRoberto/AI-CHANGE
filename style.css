@@ -59,3 +59,124 @@ body{
         height: auto;
     }
 }
+
+.image-apartado-how-to {
+    position: relative;
+    width: 1232px; 
+    margin: 0 auto; 
+  }
+  
+  
+  .overlay-noticia-ia {
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 920px;
+    height: 300px;
+  }
+
+  .overlay-noticia-ia h4{
+    font-weight: bold;
+    max-width: 784px;
+  }
+
+  @media (max-width: 1250px){
+    .overlay-noticia-ia h4{
+        font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 1250px) {
+    .image-apartado-how-to {
+      width: 100%; 
+    }
+  
+    .overlay-noticia-ia {
+      top: auto;
+      right: 45%;
+      transform: translateX(50%);
+      bottom: 0%;
+      width: 90%;
+    }
+  }
+
+  .btn_read_more{
+    font-size: 14px;
+    font-weight: bold;
+    color: #7c4ee4;
+    width: 125px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #7c4ee4;
+    transition: all 0.5s ease;
+  }
+
+  .btn_read_more:hover{
+    color: #fff;
+    background-color: #7c4ee4;
+  }
+
+@media (max-width: 768px) {
+    .noticia-ai {
+        border: 2px solid #dbdbdd;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+}
+
+.recent-post h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.boton-view-all{
+    font-family: "Roboto", sans-serif;
+    background-color: #7C4EE4;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffff;
+    width: 147px;
+    height: 53px;
+}
+
+.boton-view-all:hover{
+    background-color: #8d6bdb;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .recent-post h3 {
+        display: flex;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+.development h4{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.development p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+
+.Places a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #7c4ee4;
+}
+
+.seccion-noticias a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #7c4ee4;
+}
