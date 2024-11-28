@@ -180,3 +180,28 @@ body{
     font-weight: bold;
     color: #7c4ee4;
 }
+.popular-post h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .apartado-boton-view-all{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.seccion-noticias h6{
+    font-weight: bold;
+    font-size: 21px;
+}
+.seccion-noticias p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.seccion-noticias a{
+    font-family: "Roboto", sans-serif;
+    color: #7C4EE4;
+    font-weight: bold;
+}
