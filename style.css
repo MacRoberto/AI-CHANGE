@@ -299,3 +299,7 @@ body{
 .linea-divisoria{
     background-color: #7C4EE4;
 }
+
+.Example {
+    padding-left: 25%;
+}
