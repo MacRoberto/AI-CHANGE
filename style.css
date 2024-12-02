@@ -303,3 +303,25 @@ body{
 .Example {
     padding-left: 25%;
 }
+
+.seccion-blog h6{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.seccion-blog p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.seccion-blog a{
+    font-family: "Roboto", sans-serif;
+    color: #7C4EE4;
+    font-weight: bold;
+}
+
+.apartado-correo{
+    background-color: #7C4EE4;
+    height: 400px;
+    position: relative;
+}
