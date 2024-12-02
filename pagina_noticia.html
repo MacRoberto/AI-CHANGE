@@ -9,7 +9,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<div>
 <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
         <div class="container-fluid">
@@ -47,7 +47,7 @@
 <!-- Contenido -->
     <!-- Fecha -->
     <div class="container-fluid">
-        <div class="container">
+        <div class="container mt-5 mb-5">
             <div class="container row">
                 <div class="d-flex">
                     <p class="categoria fw-bold">DEVELOPMENT</p>
@@ -63,7 +63,7 @@
                 <img src="img/Image Placeholder.svg" class="d-block w-100"/>
             </div>
     <!-- contenido -->
-            <div class="container p-3">
+            <div class="container row">
                 <div class="container mt-5 mb-5 ps-5 pe-5">
                     <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.</p>
                     <p>We’re now at a pivotal moment in our AI journey. Breakthroughs in generative AI are fundamentally changing how people interact with technology — and at Google, we’ve been responsibly developing large language models so we can safely bring them to our products. Today, we’re excited to share our early progress. Developers and businesses can now try new APIs and products that make it easy, safe and scalable to start building with Google’s best AI models through Google Cloud and a new prototyping environment called MakerSuite. And in Google Workspace, we’re introducing new features that help people harness the power of generative AI to create, connect and collaborate.</p>
@@ -109,79 +109,55 @@
         </div>
     </div>
 <!-- Titulo y Boton -->
-        <div class="container">
+    <div class="container">
         <div class="row align-items-center">
-        <div class="col-12 col-md-6 popular-post">
-            <h3>Popular Post</h3>
-        </div>
-        <div class="col-12 col-md-6 text-md-end mt-2 mt-md-0">
-            <button class="btn boton-view-all"> View All</button>
-        </div>
-        </div>
-<!-- Noticias -->
-    <!-- Noticias -->
-    <div class="seccion-noticias">
-    <section class="row justify-content-around">
-        <!-- Tarjetas o Cuadritos -->
-        <article class="col-10 col-md-10 col-lg-3 bg-white p-3">
-         <!-- Images -->
-          <img src="img/cantante.png" alt="Imagen de tren" class="img-fluid mb-4">
-          <!-- Fecha -->
-          <div class="d-flex">
-            <p class="categoria fw-bold">Travel</p>
-            <p class="fecha ms-3 text-muted">13 March 2023</p>
-        </div>
-          <!-- Titulo de noticia -->
-           <h2>Who is the best singer on chart?Know him?</h2>
-           <!-- Descripcion -->
-            <p>chart by Billboard which ranks the all-time greatest artists based on their performance on the weekly Billboard Hot 100 and  </p>
-           <!-- Read More -->
-            <a href="#">Read More...</a>
-         </article>
-   
-            <!-- Noticias -->
-   
-           <!-- Tarjetas o Cuadritos -->
-            <article class="col-10 col-md-10 col-lg-3 bg-white p-3">
-            <!-- Images -->
-             <img src="img/telefonohombre.png" alt="Imagen de tren" class="img-fluid mb-4">
-             <!-- Fecha -->
-             <div class="d-flex">
-                <p class="categoria fw-bold">DEVELOPMENT</p>
-                <p class="fecha ms-3 text-muted">11 March 2023</p>
+            <div class="col-12 col-md-6 popular-post">
+                <h3>Popular Post</h3>
             </div>
-             <!-- Titulo de noticia -->
-              <h2>How to start export import business from home?</h2>
-              <!-- Descripcion -->
-               <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs </p>
-              <!-- Read More -->
-               <a href="#">Read More...</a>
-            </article>
-   
-               <!-- Noticias -->
-   
-           <!-- Tarjetas o Cuadritos -->
-            <article class="col-10 col-md-10 col-lg-3 bg-white p-3">
-            <!-- Images -->
-             <img src="img/chocolate.png" alt="Imagen de tren" class="img-fluid mb-4">
-             <!-- Fecha -->
-             <div class="d-flex">
-                <p class="fw-bold">Sports</p>
-                <p class="ms-3 text-muted">10 March 2023</p>
+            <div class="apartado-boton-view-all col-12 col-md-6 text-md-end mt-2 mt-md-0">
+                <button class="btn boton-view-all"> View All</button>
             </div>
-             <!-- Titulo de noticia -->
-              <h2>Make some drinks with chocolates chocolates and milk</h2>
-              <!-- Descripcion -->
-               <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive </p>
-              <!-- Read More -->
-               <a href="#">Read More...</a>
-            </article>
-           </section>
-           </div>
         </div>
-
-     <!-- Correo Electronico -->
-     <div class="container-fluid apartado-correo d-flex justify-content-center">
+        <div class="seccion-noticias">
+            <section class="row justify-content-around">
+                <section class="row justify-content-around">
+                 <article class="col-10 col-md-10 col-lg-3 bg-white p-3">
+                  <img src="img/cantante.png" alt="Imagen de cantatante" class="img-fluid mb-4">
+                    <div class="d-flex">
+                    <p class="categoria fw-bold">Travel</p>
+                    <p class="fecha ms-3 text-muted">13 March 2023</p>
+                    </div>
+                   <h6>Who is the best singer on chart?Know him?</h6>
+                    <p class="text-muted">chart by Billboard which ranks the all-time greatest artists based on their performance on the weekly Billboard Hot 100 and  </p>
+                    <a href="#">Read More...</a>
+                 </article>
+                    <article class="col-10 col-md-10 col-lg-3 bg-white p-3">
+                     <img src="img/telefonohombre.png" alt="Imagen de un hombre al telefono" class="img-fluid mb-4">
+                     <div class="d-flex">
+                        <p class="categoria fw-bold">DEVELOPMENT</p>
+                        <p class="fecha ms-3 text-muted">11 March 2023</p>
+                    </div>
+                      <h6>How to start export import business from home?</h6>
+                       <p class="text-muted">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs </p>
+                       <a href="#">Read More...</a>
+                    </article>
+                    <article class="col-10 col-md-10 col-lg-3 bg-white p-3">
+                     <img src="img/chocolate.png" alt="Imagen de chocolate" class="img-fluid mb-4">
+                     <div class="d-flex">
+                        <p class="fw-bold">Sports</p>
+                        <p class="ms-3 text-muted">10 March 2023</p>
+                    </div>
+                      <h6>Make some drinks with chocolates chocolates and milk</h6>
+                       <p class="text-muted">Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. survival strategies to ensure proactive </p>
+                       <a href="#">Read More...</a>
+                    </article>
+                   </section>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Correo Electronico -->
+    <div class="container-fluid apartado-correo d-flex justify-content-center">
         <!-- Imagenes -->
         <img src="img/Mask group.svg" alt="" class="imagen-footer-1 img-fluid">
         <img src="img/Mask group2.svg" alt="" class="imagen-footer-2 img-fluid">
