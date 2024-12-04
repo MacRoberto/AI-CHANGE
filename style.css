@@ -4,6 +4,31 @@ body{
     font-family: "Raleway", sans-serif; 
 }
 
+.navbar .navbar-brand{
+    width: 150px;
+    margin-left: 40px;
+}
+.navbar .btn-outline-withe{
+    width: 180px; 
+    height: 55px; 
+    background-color: #7C4EE4; 
+    color: #ffff;
+}
+
+
+.collapse .nav-item a{
+    color: #333333;
+    transition: all 0.5s ease;
+}
+
+.collapse .nav-item a:hover{
+    color: #7C4EE4;
+}
+
+.navbar .collapse img{
+    width: 70px; 
+    padding: 10px;
+}
 .container-fluid .container_apartado-hero{
     background-color: #7C4EE4;
 }
@@ -13,22 +38,23 @@ body{
 }
 
 
-.apartado-hero h1 {
-    font-size: 3rem;
+.container_apartado-hero h1 {
+    color: #fff;
+    font-size:  16px; 
     font-weight: bold;
-    padding-top: 20px;
 }
 
-.apartado-hero h2 {
-    font-size: 2.5rem;
+.container_apartado-hero h2 {
+    color: #ffff; 
+    font-size: 48px; 
     font-weight: bold;
-    margin-bottom: 1rem;
 }
 
-.apartado-hero p {
-    font-size: 1rem;
+.container_apartado-hero p {
+    font-size: 16px;
     line-height: 1.5;
     color: #fff;
+    padding-top: 20px;
 }
 
 .container-fluid .btn_read_more_blanco {
@@ -64,11 +90,17 @@ body{
 
     .apartado-hero p {
         font-size: 0.875rem;
+        padding-top: 20px;
     }
 
     .hero .btn_read_more_blanco {
         width: auto;
         height: auto;
+    }
+
+    .development .btn_read_more{
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
 }
 
@@ -321,6 +353,9 @@ body{
     font-size: 21px;
 }
 
+.blogs{
+    padding: 84px;
+}
 .seccion-blog p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
