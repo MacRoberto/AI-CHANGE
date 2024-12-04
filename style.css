@@ -4,6 +4,13 @@ body{
     font-family: "Raleway", sans-serif; 
 }
 
+.container-fluid .container_apartado-hero{
+    background-color: #7C4EE4;
+}
+
+.container-fluid .container_apartado-hero .img{
+    width: 650px;
+}
 
 
 .apartado-hero h1 {
@@ -28,7 +35,12 @@ body{
     font-size: 1rem;
     font-weight: bold;
     border-radius: 8px;
-    padding: 10px 20px;
+    margin-top: 45px;
+    border-color: #7C4EE4;
+    border-right: #7C4EE4;
+    border-bottom: #7C4EE4;
+    width: 170px; 
+    height: 55px;
 }
 
 .hero img {
@@ -302,4 +314,26 @@ body{
 
 .Example {
     padding-left: 25%;
+}
+
+.seccion-blog h6{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.seccion-blog p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.seccion-blog a{
+    font-family: "Roboto", sans-serif;
+    color: #7C4EE4;
+    font-weight: bold;
+}
+
+.apartado-correo{
+    background-color: #7C4EE4;
+    height: 400px;
+    position: relative;
 }
