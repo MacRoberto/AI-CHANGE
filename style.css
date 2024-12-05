@@ -372,3 +372,11 @@ body{
     height: 400px;
     position: relative;
 }
+
+.Quote {
+    justify-items: center;
+}
+
+.AcheUno {
+    font-weight: 700;
+}
